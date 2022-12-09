@@ -49,7 +49,7 @@ function detectDuplicates(...items) {
 }
 ```
 
-## Experince
+## Experience
 
 * Markup Developer (July 2022 - Present)
 * Frontend Developer (May 2021 - July 2022)
@@ -57,7 +57,7 @@ function detectDuplicates(...items) {
     - [Webpage](https://anastasiia-sharkova.github.io/Kickstarter_landing/)
 
     - [GitHub Code](https://github.com/Anastasiia-Sharkova/Kickstarter_landing)
-* Landing KICKSTARTER
+* Landing Bose
     - [Webpage](https://anastasiia-sharkova.github.io/BOSE_landing/)
 
     - [GitHub Code](https://github.com/Anastasiia-Sharkova/BOSE_landing)
