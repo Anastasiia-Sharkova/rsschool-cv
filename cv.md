@@ -8,6 +8,8 @@
 
 [LinkedIN](http://www.linkedin.com/in/anastasiia-sharkova-247b4623b)
 
+[e-mail](anastasiiasharkova.work@gmail.com)
+
 _Discord_ - Anastasia (@Anastasiia-Sharkova)
 
 ## Summary:
