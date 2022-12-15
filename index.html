@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="page__body">
+    <header class="page__header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__img-container">
+            <img class="header__img" src="./images/iskhodnyj-kod.jpg" alt="code image">
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#contacts" class="menu__link">Contacts</a>
+              </li>
+              <li class="menu__item">
+                <a href="#summary" class="menu__link">Summary</a>
+              </li>
+              <li class="menu__item">
+                <a href="#skills" class="menu__link">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a href="#code-example" class="menu__link">Code Example</a>
+              </li>
+              <li class="menu__item">
+                <a href="#experience" class="menu__link">Experience</a>
+              </li>
+              <li class="menu__item">
+                <a href="#education" class="menu__link">Education</a>
+              </li>
+              <li class="menu__item">
+                <a href="#english" class="menu__link">English</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page__content">
+     <div class="container">
+      <section class="page__section title">
+        <img class="page__avatar" src="./images/avatar.jpg" alt="photo">
+        <h1 class="page__title">Anastasiia Sharkova</h1>
+      </section>
+      <div class="page__section contacts" id="contacts">
+        <ul class="contacts__list">
+          <li><a href="https://t.me/Anastasiia_sharkova">Telegram</a></li>
+          <li><a href="http://github.com/Anastasiia-Sharkova">GitHub</a></li>
+          <li><a href="mailto:anastasiiasharkova.work@gmail.com">E-mail</a></li>
+        </ul>
+      </div>
+      <section class="page__section summary" id="summary">
+       <h2 class="page__section-title">Summary</h2>
+       <p class="page__text">
+        I have vast theoretical knowledge in front end development,
+        have good practical skills in slicing PSD templates,
+        creating responsive pages (Bootstrap grid, BEM Methodology) with valid and cross browser code.
+        Well familiar with using React and Javascript for best performance.
+        I am ready to take on new challenges, not afraid to learn,
+        improve and get better. Due to my previous experience - I am highly collaborative within the team and ready to deliver the highest quality.
+      </p>
+      </section>
+      <section class="page__section skills" id="skills">
+       <h2 class="page__section-title">Skills</h2>
+       <ul class="page__text">
+        <li>Program languages &amp; Frameworks: React, Redux, Typescript, JavaScript (ES2015 - 2019)</li>
+        <li>Front End technologies and frameworks: HTML5, CSS3, Sass(SCSS)</li>
+        <li>PSD to HTML: Figma</li>
+        <li>Version control: Git</li>
+        <li>Task Management and tools: NPM, Webpack, Trello, Jira</li>
+        <li>Socket.io</li>
+        <li>Algorithms: Solved 150+ algorithmic tasks</li>
+        <li>Other computer skills: Photoshop, Windows</li>
+        <li>English: Intermediate</li>
+        <li>Other Languages: Italian (Pre-Intermediate)</li>
+       </ul>
+      </section>
+      <section class="page__section code-example" id="code-example">
+       <h2 class="page__section-title">Code-example</h2>
+       <div>
+        <pre>
+          <code>
+          function detectDuplicates(...items) {
+            const array = [...items];
+            const newArray = [];<br>
+            for (let i = 0; i &lt; array.length; i++) {
+              if (newArray.includes(array[i])) {
+                return true;
+              } else {
+                newArray.push(array[i]);
+              }
+            }<br>
+            return false;
+          }
+          </code>
+        </pre>
+       </div>
+      </section>
+      <section class="page__section experience" id="experience">
+       <h2 class="page__section-title">Experience</h2>
+       <ul class="page__text">
+        <li>Markup Developer (July 2022 - Present)</li>
+        <li>Frontend Developer (May 2021 - July 2022)</li>
+        <li><a href="https://anastasiia-sharkova.github.io/Kickstarter_landing/" target="_blank">Landing KICKSTARTER</a></li>
+        <li><a href="https://anastasiia-sharkova.github.io/BOSE_landing/" target="_blank">Landing BOSE</a></li>
+       </ul>
+      </section>
+      <section class="page__section education" id="education">
+       <h2 class="page__section-title">Education</h2>
+       <ul class="page__text">
+        <li>Borys Grinchenko Kyiv University: Undergraduate, Pedagogical Institute: Elementary education, 2010-2015</li>
+        <li>"Professional Economic College of the State Higher Educational Institution” KNEU them. V. Hetman":
+        Junior Specialist (with honors), Banking , 2006-2009</li>
+        <li>High School: Specialized school #200 with Advanced English Studies, 2006</li>
+        </ul>
+       <h3>Additional education</h3>
+       <ul class="page__text">
+        <li>Mate academy, frontend course</li>
+        <li>SkillUp, frontend course</li>
+        <li>FreeCodeCamp (HTML, CSS, JS, TS). Learn.javascript.ru (JS).</li>
+        <li>Udemy: Learn to Program in Javascript: Beginner to Pro, Javascript Essentials, Responsive Web &amp; Mobile Development in HTML, CSS &amp; Javascript.</li>
+       </ul>
+      </section>
+      <section class="page__section english" id="english">
+       <h2 class="page__section-title">English</h2>
+       <p class="page__text">Intermediate</p>
+      </section>
+     </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <ul class="footer__contacts">
+          <li>
+            <a href="https://github.com/Anastasiia-Sharkova">Follow me on
+              <img class="contacts__git" src="./images/git-hub.png" alt="GitHub">
+            </a>
+          </li>
+          <li>
+            <a href="https://rs.school/js/">RS School course:
+              <img class="contacts__rsschool" src="./images/rs_school_js.svg" alt="RS School">
+            </a>
+          </li>
+        </ul>
+        <div class="page__optional">
+          <p>2022</p>
+          <a href="#" class="footer__arrow">
+            <img src="./images/arrow.svg" alt="go to the top" class="footer__icon">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
