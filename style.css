@@ -4,7 +4,11 @@
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #027099;
+}
+
+a:hover {
+  color: #01a3de;
 }
 
 h1,
@@ -28,20 +32,65 @@ ul {
   font-weight: 400;
 }
 
+.page__body {
+  margin: 0;
+  background-color: #fdfefe;
+  color: #000b13;
+}
+
 .page__header {
   padding-top: 30px;
 }
 
+.header__img-container {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-bottom: 30px;
+  }
+
+.header__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  }
+
 .page__content {
-  margin-top: 30px;
+  margin-top: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.page__avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .page__title {
+  position: relative;
   text-align: center;
-  font-size: 55px;
+  font-size: 3.4rem;
   line-height: 60px;
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgb(162 183 203);
+}
+
+@media (max-width:450px) {
+  .page__title {
+    font-size: 2.4rem;
+    line-height: 45px;
+  }
 }
 
 .page__section {
@@ -51,8 +100,9 @@ ul {
 .page__section-title {
   font-size: 30px;
   line-height: 48px;
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
+  padding-left: 20px;
 }
 
 .page__section-subtitle {
@@ -60,11 +110,13 @@ ul {
   line-height: 30px;
   font-weight: 700px;
   text-transform: uppercase;
+  padding-left: 30px;
 }
 
-.page__body {
-  margin: 0;
-  background-color: #f8f2f2;
+.page__text {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
 }
 
 .menu__list {
@@ -72,6 +124,7 @@ ul {
   justify-content: center;
   text-transform: uppercase;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .menu__link {
@@ -93,6 +146,55 @@ ul {
 }
 
 .menu__link:hover::after {
-  background-color: #555;
+  background-color: #00375a;
   transition: 0.3s;
+}
+
+.contacts__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  position: relative;
+  margin-top: 85px;
+  padding-bottom: 50px;
+  background-color: #00375a;
+  color: #01a3de;
+}
+
+.footer__contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.contacts__git,
+.contacts__rsschool,
+.footer__arrow {
+  padding: 15px 0 0 10px;
+  height: 40px;
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.contacts__git:hover,
+.contacts__rsschool:hover,
+.footer__arrow:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.page__optional {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
